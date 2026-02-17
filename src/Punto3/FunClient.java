@@ -23,7 +23,9 @@ public class FunClient {
         ) {
 
             System.out.println("Conectado al servidor.");
+            System.out.println("Función actual es coseno");
             System.out.println("Escribe números o 'fun:sin', 'fun:cos', 'fun:tan'");
+        
 
             String userInput;
 
