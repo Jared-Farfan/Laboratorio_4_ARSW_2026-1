@@ -1,4 +1,4 @@
-package punto5;
+package Punto5;
 
 import java.io.*;
 import java.net.*;
