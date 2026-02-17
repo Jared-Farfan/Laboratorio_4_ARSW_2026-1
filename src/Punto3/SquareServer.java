@@ -27,7 +27,6 @@ public class SquareServer {
         String inputLine, outputLine;
         while ((inputLine = in.readLine()) != null) {
             if (inputLine.equals("Bye."))
-                
                 break;
             System.out.println("Mensaje: " + inputLine);
             try {

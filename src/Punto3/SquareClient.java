@@ -27,6 +27,10 @@ public class SquareClient {
         System.out.print("Ingrese un número para calcular su cuadrado (o 'Bye.' para salir):");
         String userInput;
         while ((userInput = stdIn.readLine()) != null) {
+            if (userInput.equals("Bye.")) {
+                out.println(userInput);
+                break;
+            }
             out.println(userInput);
             System.out.println("answer: " + in.readLine());
         }
